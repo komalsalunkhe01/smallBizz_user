@@ -1,11 +1,13 @@
-import React from 'react';
+import React from "react";
+import Navbar from "./components/Navbar";
+import Cardlist from "./components/Cardlist";
 
 function WelcomeScreen() {
   return (
-    <div>
-      <h2>Welcome! Ayush</h2>
-      <p>You have successfully signed in with Google.</p>
-    </div>
+    <>
+      <Navbar></Navbar>
+      <Cardlist></Cardlist>
+    </>
   );
 }
 
